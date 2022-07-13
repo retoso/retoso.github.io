@@ -51,8 +51,8 @@ header {
 header div.container {justify-content: space-between !important; align-items: center}
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 10px;
+    height: 10px;
     flex: 0 1 90px;
 }
 
