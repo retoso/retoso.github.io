@@ -2,52 +2,41 @@
 
 function enviarNome(){
    var nomeInserido=document.getElementById("nome").value
-   document.getElementById("texto_area").innerText=("O seu nome e " + nomeInserido)
+   document.getElementById("texto_area").innerText=("O seu nome é " + nomeInserido)
 }
 
 /*Par ou Impar*/
 
 function enviarNumero(){
-   var numeroInserido=document.getElementById("numero").value
+   var numeroInserido=document.getElementById("numero").value;
    if (numeroInserido % 2 == 0){
-      document.getElementById("texto_area").innerText=("  O nnúmero " +  numeroInserido + "  e par!")
-      } else {document.getElementById("texto_area").innerText=("  O número " +  numeroInserido + "  e impar!")}
+      document.getElementById("texto_area").innerText=("  O número " +  numeroInserido + "  é par!")
+      } else {document.getElementById("texto_area").innerText=("  O número " +  numeroInserido + "  é impar!")};
 }
 
 
-/*Gerador numeros aPar ou Impar*/
+/*Gerador números aleatórios*/
 
-
-
-
-
-
-
-
-   function faixaetaria(){
-    var faixaetaria=document.getElementById("idade").value
-    if (faixaetaria >= 18){
-       var maiormenor = "Voce e de maior"
-    } else 
-       maiormenor = "Voce e menor"
-    document.getElementById("texto_area").innerText=(maiormenor)
-}
-
-function calculate(){
-   var peso=document.getElementById("valorPeso").value
-   var excedeu = peso - 50
-   var multa = excedeu * 4.0
-   if (peso > 50) { 
-   document.getElementById("texto_area").innerText=("Voce excedeu o peso maximo estabelecido em " + excedeu + " Portanto a multa sera de R$ " + multa)
-    }else 
-    document.getElementById("texto_area").innerText=("Parabens!!! Voce esta dentro das normas")
-}
-
-
-function clear(){
-   var btn = document.querySelector("#refresh");
-   btn.addEventListener("click", function() {    
-    location.reload();
-});
+function geradorNumero(){
    
-}
+   var min=document.getElementById("minimo").value;
+   var max=document.getElementById("maximo").value;
+   var qtd=document.getElementById("quantidade").value;
+   var resultado = []
+   var arr = []
+   
+   function geradorNumero(min, max) { 
+       min = Math.ceil(min);
+       max = Math.floor(max);
+       return Math.floor(Math.random() * (max - min + 1)) + min;
+   } 
+   
+   for (let i = 1; i <= qtd; i++) {
+     if (resultado.length == qtd){ 
+
+     } else
+       arr.push(geradorNumero(min, max))
+       resultado = [...new Set(arr)]
+       resultado.sort()
+       }
+       document.getElementById("texto_area").innerText=("  Os números são " + resultado)};
