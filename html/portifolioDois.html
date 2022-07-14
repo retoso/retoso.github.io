@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Tonelli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div><h1>Renato Tonelli</h1></div>
+                <nav>
+                    <ul class="list-items">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article class="index" id="home">
+            <section class="texto">
+
+                <p class="paragrafo">
+                    <p class="paragrafo"><h1>Este numero e par ou impar...</h1></p>
+                </p>
+            </section>        
+        </article>
+        <section id="portfolio" class="portfolio">
+            <div class="container card-group">
+                <div class="card">
+                    <div class="card-img">
+                        <div class="img-body"><img src="../img/port2.png" alt="Portfólio 1" title="Portfólio 1"></div>
+                    </div>
+            
+                    <div class="card-body">
+                        <p>
+                            Informe um numero.
+                        </p>
+                        <p>
+                        <input type="text" id="numero" class="entrada" placeholder="Insira o numero!!">
+                        </p>                                     
+                    </div>            
+                    <div class="card-button">
+                        <button onclick="enviarNumero()">Enviar</button>         
+                    </div>
+                    <div class="card-button">
+                        <button id="refresh">Limpar</button>
+                        <script>
+                            var btn = document.querySelector("#refresh");
+                            btn.addEventListener("click", function() {
+                            location.reload();
+                        });
+                        </script>
+      
+                    </div>
+                    <div class="card-button">
+                        <textarea name="texto_area" id="texto_area" rows="7"></textarea>
+  
+                </div>
+            
+          
+                
+            </div>
+        </section>
+        <footer>
+            <small>Todos os direitos reservados 2022</div>
+        </footer>
+    </body>
+</html>

@@ -6,7 +6,7 @@ permalink: /sobre/
 
 Ola, seja bem-vindo(a).
 
-Quero compartilhar com vocês o meu progresso, algumas dúvidas e interesses.
+Quero compartilhar com vocês o meu progresso, projetos e interesses.
 
 
 
