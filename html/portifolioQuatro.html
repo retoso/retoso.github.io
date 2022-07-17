@@ -27,7 +27,7 @@
             <section class="texto">
 
                 <p class="paragrafo">
-                    <p class="paragrafo"><h1>Este numero e par ou impar...</h1></p>
+                    <p class="paragrafo"><h1>Você é maior de idade?</h1></p>
                 </p>
             </section>        
         </article>
@@ -35,19 +35,18 @@
             <div class="container card-group">
                 <div class="card">
                     <div class="card-img">
-                        <div class="img-body"><img src="../img/port2.png" alt="Portfólio 2" title="Portfólio 2"></div>
+                        <div class="img-body"><img src="../img/port4.jpeg" alt="Portfólio 4" title="Portfólio 4"></div>
                     </div>
             
                     <div class="card-body">
                         <p>
-                            Informe um numero.
+                        Quanto anos você tem?
+                        <input type="number" id="txtIdade" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="Informe sua idade...">
                         </p>
-                        <p>
-                        <input type="number" id="numero" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="Insira o numero!!">
-                        </p>                                     
+                                             
                     </div>            
                     <div class="card-button">
-                        <button onclick="enviarNumero()">Enviar</button>         
+                        <button onclick="idade()">Enviar</button>         
                     </div>
                     <div class="card-button">
                         <button id="refresh">Limpar</button>
@@ -60,12 +59,8 @@
       
                     </div>
                     <div class="card-button">
-                        <textarea name="texto_area" id="texto_area" rows="7"></textarea>
-  
-                </div>
-            
-          
-                
+                        <textarea name="texto_area" id="texto_area" rows="3"></textarea>
+                </div>               
             </div>
         </section>
         <footer>
