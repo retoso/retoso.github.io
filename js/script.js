@@ -64,26 +64,33 @@ function idade() {
 function geradorDaMega() {
    var qtdJogos = document.getElementById("quantidade").value;
    var jogo = []
-   function jogofinal() {
-      for (let i = 1; i <= 6; i++) {
-         jogo.push(Math.floor(Math.random() * 60) + 1)
-         jogo.sort()
-      }
-      var tmp = [];
-      for (var i = 0; i < jogo.length; i++) {
-         if (tmp.indexOf(jogo[i]) == -1) {
-             tmp.push(jogo[i]);
-            }
-         }
-         return tmp;
-      }
+   var megasena = []
+
+
+
+function jogofinal() {
+  for (let i = 1; i <= 6; i++) {
+    jogo.push(Math.floor(Math.random() * 60) + 1)
+    jogo.sort()
+  }
+  var tmp = [];
+  for (var i = 0; i < jogo.length; i++) {
+    if (tmp.indexOf(jogo[i]) == -1) {
+      tmp.push(jogo[i]);
+    }
+  }
+  return tmp;
+}
 
 for (let i = 1; i < qtdJogos + 1; i++) {
-   if (jogofinal(jogo).length <= 5) {
-      i--
-      var jogo = []
-   } else
-   document.getElementById("texto_area").innerText = ("Jogo número " + i + " - " jogo)
-   var jogo = []
+  if (jogofinal(jogo).length <= 5) {
+    i--
+    var jogo = []
+  } else
+    megasena.push(jogo)
+  var jogo = []
 }
+
+document.getElementById("texto_area").innerText = ("  Os números são " + megasena)
 };
+ 
