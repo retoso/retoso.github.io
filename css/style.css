@@ -50,7 +50,9 @@ header {
 }
 
 header div.container {justify-content: space-between !important; align-items: center}
-
+textarea {
+    text-align: center;
+}
 .logo {
     width: 10px;
     height: 10px;
