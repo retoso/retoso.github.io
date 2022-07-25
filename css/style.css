@@ -124,6 +124,11 @@ footer {
     padding: 15px;
     background-color:  #122A57;
     color: #CCC;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* altura do rodapé */
+
 }
 /*index*/
 
@@ -212,13 +217,6 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     color: #CCC;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 600px) {
     body, html {font-size: 12px}
 
@@ -300,10 +298,11 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     background-color: #8c96b0;
     display: flex;
     justify-content: center;
+
 }
 
 .card-button button {
-    width: 150px;
+    width: 108px;
     padding: 10px;
     border: none;
     border-radius: 3px;
@@ -312,11 +311,17 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     font-size: 1.2em;
     text-transform: capitalize;
     transition: all .3s ease-in-out;
+
 }
 
 .card-button button:hover {
     cursor: pointer;
     opacity: .75;
+}
+
+.calculadora {
+    display: flex;
+    width: 25%;
 }
 
 .portfolio {background-color: #FFF; width: 100%;}
@@ -328,8 +333,7 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     text-align: center; 
 }
 
-.textarea {
-
+.card-button texto_area {
     padding: 15px;
     margin-top: 1cm;
     border-radius: 3px;

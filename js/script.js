@@ -62,7 +62,7 @@ function idade() {
 /*Gerador de números aleatórios para Mega-Sena*/
 
 function geradorDaMega() {
-   var qtdJogos = document.getElementById("quantidade").value;
+   var qtdJogos = parseInt(document.getElementById("quantidade").value);
    var jogo = []
    var megasena = []
 
@@ -94,3 +94,32 @@ for (let i = 1; i < qtdJogos + 1; i++) {
 document.getElementById("texto_area").innerText = ("  Os números são " + megasena)
 };
  
+
+function soma() {
+   var somaA = parseFloat(document.getElementById("valorA").value);
+   var somaB = parseFloat(document.getElementById("valorB").value);
+   let resultado = somaA + somaB
+   document.getElementById("texto_area").innerText = (resultado)
+}
+
+function subtracao() {
+   var subtA = parseFloat(document.getElementById("valorA").value);
+   var subtB = parseFloat(document.getElementById("valorB").value);
+   let resultado = subtA - subtB
+   document.getElementById("texto_area").innerText = (resultado)
+}
+
+function multiplicacao() {
+   var multA = parseFloat(document.getElementById("valorA").value);
+   var multB = parseFloat(document.getElementById("valorB").value);
+   let resultado = multA * multB
+   document.getElementById("texto_area").innerText = (resultado)
+}
+
+function divisao() {
+   var divA = parseFloat(document.getElementById("valorA").value);
+   var divB = parseFloat(document.getElementById("valorB").value);
+   let resultado = divA / divB
+   document.getElementById("texto_area").innerText = (resultado)
+}
+

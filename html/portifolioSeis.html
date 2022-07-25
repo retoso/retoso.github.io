@@ -27,7 +27,7 @@
             <section class="texto">
 
                 <p class="paragrafo">
-                    <p class="paragrafo"><h1>Gerador de jogos da Mega-Sena</h1></p>
+                    <p class="paragrafo"><h1>Calculadora</h1></p>
                 </p>
             </section>        
         </article>
@@ -35,18 +35,35 @@
             <div class="container card-group">
                 <div class="card">
                     <div class="card-img">
-                        <div class="img-body"><img src="../img//port5.jpeg" alt="Portfólio 5" title="Portfólio 5"></div>
+                        <div class="img-body"><img src="../img/calculadora.png" alt="Portfólio 6" title="Portfólio 6"></div>
                     </div>
             
                     <div class="card-body">
                         <p>
-                        Quantidade de jogos:
-                        <input type="text"" id="quantidade" class="entrada"onkeypress="return event.charCode >= 48 && event.charCode <= 57"  placeholder="Quantos jogos deseja fazer....">
-                        <p>                                    
-                    </div>            
-                    <div class="card-button">
-                        <button onclick="geradorDaMega()">Enviar</button>         
+                            Valor A
+                            <input type="number" id="valorA" class="entrada" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="Valor A">
+                            <p>
+                            <p>
+                            Valor B
+                            <input type="number"id="valorB" class="entrada"onkeypress="return event.charCode >= 48 && event.charCode <= 57"  placeholder="Valor B">
+                            <p>                                    
                     </div>
+                    
+                    <div class="calculadora">
+                        <div class="card-button">
+                            <button onclick="soma()">+</button>         
+                        </div>
+                        <div class="card-button">
+                            <button onclick="subtracao()">-</button>         
+                        </div>
+                        <div class="card-button">
+                            <button onclick="multiplicacao()">*</button>         
+                        </div>
+                        <div class="card-button">
+                            <button onclick="divisao()">/</button>         
+                        </div>
+                    </div>
+
                     <div class="card-button">
                         <button id="refresh">Limpar</button>
                         <script>
@@ -65,5 +82,7 @@
         <footer>
             <small>Todos os direitos reservados 2022</div>
         </footer>
+
+
     </body>
 </html>
