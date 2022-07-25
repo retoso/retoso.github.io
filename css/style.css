@@ -5,7 +5,6 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Roboto Light', 'Roboto Medium', 'Roboto';
-
     text-decoration: none;
 }
 
@@ -124,7 +123,8 @@ footer {
     padding: 15px;
     background-color:  #122A57;
     color: #CCC;
-    position: absolute;
+    position: fixed;
+
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* altura do rodapé */
