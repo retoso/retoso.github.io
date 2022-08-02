@@ -123,3 +123,21 @@ function divisao() {
    document.getElementById("texto_area").innerText = (resultado)
 }
 
+function fizzBuzz() {
+   var fb = parseFloat(document.getElementById("numeroEntrada").value);
+
+   for (let i = 1; i <= fb; i++){
+      let texto = ""
+      if (i % 3 == 0){
+         document.getElementById("texto_area").innerText = (texto = texto += ("Fizz"))
+      }
+      if (i % 5 == 0){
+         document.getElementById("texto_area").innerText = (texto = texto += ("Buzz"))
+      }
+      if (texto == ""){
+         document.getElementById("texto_area").innerText = (i)
+      } else
+      document.getElementById("texto_area").innerText = (texto)
+    }
+
+}
