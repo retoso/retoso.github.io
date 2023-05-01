@@ -1,77 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog do Tonelli</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <div><h1>Renato Tonelli</h1></div>
-                <nav>
-                    <ul class="list-items">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="portfolio.html">Portfólio</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <script src="https://kit.fontawesome.com/96be6e583e.js" crossorigin="anonymous"></script>
+    <title>RSoftware</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h1>RSoftware</h1>
             </div>
-        </header>
+            <div class="hoje">
+                <label class="hojeDia" id="hojeDia"></label>
+            </div>
+        </div>
 
-        <main>
-            <article class="sobre">
-                <section class="foto-social">
-                    <div class="foto">
-                        <img src="../img/homem.jpg" alt="Minha foto" title="Renato Tonelli">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <div>Home</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./sobre.html">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <div>Sobre</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="./portfolio.html">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <div>Portfólio</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./contato.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Contato</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./ajuda.html">
+                        <i class="fas fa-question"></i>
+                        <div>Ajuda</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="empresa">
+                <div class="imgEmpresa">
+                    <img src="../img/rtech.png" alt="RSoftware" title="RSoftware">
+                </div>
+                <div class="negocio">
+                    <div class="SobreEmpresa">
+                        <p class="paragrafo">
+                            A Rsoftware é uma empresa focada em desenvolver soluções tecnológicas inovadoras para
+                            simplificar a gestão de processos específicos e atender às necessidades dos nossos clientes.
+                            Nossa missão é oferecer serviços de qualidade e resultados eficazes, fornecendo as
+                            ferramentas certas para ajudar as empresas a crescer e alcançar seus objetivos. Com uma
+                            equipe altamente qualificada e experiente, estamos sempre em busca de novas tecnologias e
+                            tendências para fornecer soluções personalizadas e eficientes para nossos clientes.
+                        </p>
                     </div>
-                </section>
-                <section class="texto">
-                    <h1 class="nome">Renato Tonelli de Souza</h1>
-                    <p class="paragrafo">
-                        Quero compartilhar com vocês o meu progresso...
+
+                    <br>
+                    <div class="mvv">
                         <p class="paragrafo">
-                            Eu trabalhei durante 3 décadas na área de turismos metade como consultor de viagens corporativos e a outra como analista de sistemas. Neste período em algumas das maiores agências de turismo em São Paulo. Nessas agências, iniciei como consultor de viagens corporativo, coordenador e supervisor em postos de serviços avançados e quando surgiu-se então a necessidade de automação de processos com sistemas de self- book e backoffice, neste período eu ingressei como analista de sistemas.
+                            <br>
+                        <h4>MISSÃO</h4><br>
+                        <br>
+                        • Oferecer consultoria e soluções de software personalizadas, buscando atender de forma ágil e
+                        eficiente às demandas dos clientes, mantendo suas empresas atualizadas e competitivas no
+                        mercado.
                         </p>
+                    </div>
+                    <br>
+                    <div class="mvv">
                         <p class="paragrafo">
-                            O motivo pelo qual estou migrando para desenvolvedor surgiu apos mudança para estado do Paraná, outras realidades e necessidades fizeram jus ao investimento. Estou realizando vários cursos e participando de bootcamp, cursos na Digital Innovation One Inc, Senac (presencial), youtube e afins todos com o foco full stack.
+                            <br>
+                        <h4>VISÃO</h4><br>
+                        <br>
+                        • Nossa visão é capacitar nossas equipes nas melhores soluções, promovendo um ambiente
+                        inspirador e desafiador para que possam se destacar como especialistas em suas áreas de atuação.
                         </p>
+                    </div>
+                    <br>
+                    <div class="mvv">
                         <p class="paragrafo">
-                            Se você analisar meu <a href="https://github.com/retoso">GITHUB</a> vera que estou bem focado em javascript por enquanto. Pois, no meu entendimento preciso ser no mínimo bom em uma ou duas linguagens. E não vejo a hora de poder entrar de cabeça na linguagem python...</p>
-                         <p class="paragrafo">
-                            Na carreira como analista de sistemas eu posso destacar dois casos relevantes que descrevo aqui a abaixo, quanto a nova como desenvolvedor deu um click em <a href="https://github.com/retoso?tab=repositories">github.com/retoso</a> e visite meu repositório.
-                         </p>
+                            <br>
+                        <h4>VALORES</h4><br>
+                        <br>
+                        • Nossos valores são fundamentais para o sucesso de nossas operações e relacionamentos com
+                        nossos clientes e parceiros. Acreditamos em:<br>
+                        <br>
+                        • Honestidade, transparência, integridade e ética em todos os aspectos do negócio, para
+                        construir relações confiáveis e duradouras. <br>
+                        <br>
+                        • Melhoria contínua e simplificação em todas as ações, para otimizar processos e garantir a
+                        satisfação de nossos clientes e colaboradores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../js/index.js"></script>
+</body>
 
-                         <p class="paragrafo">
-                            Caso - 1<br>
-                            Em uma determinada empresa realizei o mapeamento de todos os processos de vendas (pedido do cliente, fornecedores, Prazos e Pagamentos com fornecedor, prazos e recebimento com cliente e entrega do produto). Identificamos vários pontos de melhoria nos processos, pontos de atenção e críticos. Nesta fase com foco em automação encontrei soluções para agilizar e garantir produtividade com qualidade nos processos.
-                            </p>
-                         <p class="paragrafo">
-                            Caso - 2<br>
-                            Em outra empresa identifiquei a sub-utilização de um sistema contratado. Este sistema estava sendo utilizado para um proposito diferente do contratado. Com isso o resultado era baixo, custo operacional alto e inviabilizando vários processos. Após o levantamento realizei uma apresentação para os gestores do proposito do sistema e como poderia ser aplicado na empresa. Sugerir também a contratação de um segundo sistema para atender a outra demanda. O resultado foi redução considerável na cobrança do primeiro sistema ao ponto de cobrir todos os investimento na contratação do segundo sistema e mesmo assim na somatória dos sistemas houve uma redução de 10% no valor pago para o praticado anteriormente.
-                           </p>
-                           <p class="paragrafo">
-                            Atualizado em 08 de Julho de 2022 </p>
-                    </p>
-                </section>
-                    
-            </article>
-        </main>
-
-        <footer>
-            <small>Todos os direitos reservados 2022</div>
-        </footer>
-        
-    </body>
-
-    <script 
-        src="https://code.jquery.com/jquery-3.4.1.min.js" 
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
-        crossorigin="anonymous">
-    </script>
-    <script src="./js/responsiveslides.min.js"></script>
 </html>

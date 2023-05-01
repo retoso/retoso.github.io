@@ -1,0 +1,72 @@
+article {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.paragrafo{
+    color:  #1C5A6B;
+    font-weight: bold;
+
+}
+.contato {
+    width: calc(100% - 10px);
+    padding-top: 40px;
+    background-color: #FFF;
+    margin: 5px auto;
+}
+
+.contato .img {
+    display:flex;
+    justify-content: center;
+
+}
+
+img{
+
+    border-radius:50%;
+}
+
+.acesse h3{
+
+    text-align: center;
+}
+
+.contato h3{
+    color:  #1C5A6B;
+    font-weight: bold;
+
+}
+
+.contato ul {
+    width: 45%;
+    margin: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contato ul li {
+    
+    flex: 0 1 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #1C5A6B;
+}
+
+.contato ul li a {
+    color:  #1C5A6B;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.contato ul li a:hover {
+    background-color: #1C5A6B;
+    color: #E87724;
+}
+
