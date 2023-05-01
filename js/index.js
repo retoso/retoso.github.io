@@ -18,13 +18,13 @@ function btnUm() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less";
     }
 }
 
@@ -38,13 +38,13 @@ function btnDois() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less;
     }
 }
 
@@ -57,13 +57,13 @@ function btnTres() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less";
     }
 }
 
@@ -76,13 +76,13 @@ function btnQuatro() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less";
     }
 }
 
@@ -95,13 +95,13 @@ function btnCinco() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less";
     }
 }
 
@@ -114,12 +114,12 @@ function btnSeis() {
 
         pontos.style.display = "inline";
         maisTexto.style.display = "none";
-        btnLeiaMais.innerHTML = "Leia Mais";
+        btnLeiaMais.innerHTML = "Read more";
 
     } else {
 
         pontos.style.display = "none";
         maisTexto.style.display = "inline";
-        btnLeiaMais.innerHTML = "Leia Menos";
+        btnLeiaMais.innerHTML = "Read less";
     }
 }
